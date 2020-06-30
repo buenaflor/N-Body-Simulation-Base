@@ -6,4 +6,8 @@
 //  Copyright © 2020 Giancarlo Buenaflor. All rights reserved.
 //
 
-import Foundation
+import Cocoa
+
+class SimulationView: NSView {
+  
+}

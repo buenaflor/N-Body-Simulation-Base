@@ -11,6 +11,30 @@
 		24F28BE424A8199000D595DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BE324A8199000D595DB /* ViewController.swift */; };
 		24F28BE624A8199200D595DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F28BE524A8199200D595DB /* Assets.xcassets */; };
 		24F28BE924A8199200D595DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F28BE724A8199200D595DB /* Main.storyboard */; };
+		24F28BF724A819B700D595DB /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF124A819B700D595DB /* Simulation.swift */; };
+		24F28BF824A819B700D595DB /* CelestialBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF224A819B700D595DB /* CelestialBody.swift */; };
+		24F28BF924A819B700D595DB /* DrawSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF324A819B700D595DB /* DrawSpace.swift */; };
+		24F28BFA24A819B700D595DB /* BoundingBox2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF424A819B700D595DB /* BoundingBox2D.swift */; };
+		24F28BFB24A819B700D595DB /* Quadtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF524A819B700D595DB /* Quadtree.swift */; };
+		24F28BFC24A819B700D595DB /* Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BF624A819B700D595DB /* Vector2D.swift */; };
+		24F28BFE24A81AD900D595DB /* SimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F28BFD24A81AD900D595DB /* SimulationView.swift */; };
+		24F28C1124A81BDD00D595DB /* collision1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0024A81BDC00D595DB /* collision1.txt */; };
+		24F28C1224A81BDD00D595DB /* galaxy30k.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0124A81BDC00D595DB /* galaxy30k.txt */; };
+		24F28C1324A81BDD00D595DB /* galaxy10k.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0224A81BDC00D595DB /* galaxy10k.txt */; };
+		24F28C1424A81BDD00D595DB /* collision2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0324A81BDC00D595DB /* collision2.txt */; };
+		24F28C1524A81BDD00D595DB /* spiralgalaxy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0424A81BDC00D595DB /* spiralgalaxy.txt */; };
+		24F28C1624A81BDD00D595DB /* galaxy4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0524A81BDC00D595DB /* galaxy4.txt */; };
+		24F28C1724A81BDD00D595DB /* galaxy1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0624A81BDC00D595DB /* galaxy1.txt */; };
+		24F28C1824A81BDD00D595DB /* cluster2582.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0724A81BDC00D595DB /* cluster2582.txt */; };
+		24F28C1924A81BDD00D595DB /* galaxy3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0824A81BDC00D595DB /* galaxy3.txt */; };
+		24F28C1A24A81BDD00D595DB /* galaxy20k.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0924A81BDC00D595DB /* galaxy20k.txt */; };
+		24F28C1B24A81BDD00D595DB /* galaxy2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0A24A81BDC00D595DB /* galaxy2.txt */; };
+		24F28C1C24A81BDD00D595DB /* galaxymerge1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0B24A81BDC00D595DB /* galaxymerge1.txt */; };
+		24F28C1D24A81BDD00D595DB /* galaxymerge2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0C24A81BDC00D595DB /* galaxymerge2.txt */; };
+		24F28C1E24A81BDD00D595DB /* asteroids1000.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0D24A81BDC00D595DB /* asteroids1000.txt */; };
+		24F28C1F24A81BDD00D595DB /* galaxyform2500.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0E24A81BDC00D595DB /* galaxyform2500.txt */; };
+		24F28C2024A81BDD00D595DB /* galaxymerge3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C0F24A81BDC00D595DB /* galaxymerge3.txt */; };
+		24F28C2124A81BDD00D595DB /* saturnrings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F28C1024A81BDC00D595DB /* saturnrings.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +45,30 @@
 		24F28BE824A8199200D595DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24F28BEA24A8199200D595DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F28BEB24A8199200D595DB /* N_Body_Simulation_Base.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = N_Body_Simulation_Base.entitlements; sourceTree = "<group>"; };
+		24F28BF124A819B700D595DB /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		24F28BF224A819B700D595DB /* CelestialBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelestialBody.swift; sourceTree = "<group>"; };
+		24F28BF324A819B700D595DB /* DrawSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawSpace.swift; sourceTree = "<group>"; };
+		24F28BF424A819B700D595DB /* BoundingBox2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox2D.swift; sourceTree = "<group>"; };
+		24F28BF524A819B700D595DB /* Quadtree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadtree.swift; sourceTree = "<group>"; };
+		24F28BF624A819B700D595DB /* Vector2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector2D.swift; sourceTree = "<group>"; };
+		24F28BFD24A81AD900D595DB /* SimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationView.swift; sourceTree = "<group>"; };
+		24F28C0024A81BDC00D595DB /* collision1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = collision1.txt; sourceTree = "<group>"; };
+		24F28C0124A81BDC00D595DB /* galaxy30k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy30k.txt; sourceTree = "<group>"; };
+		24F28C0224A81BDC00D595DB /* galaxy10k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy10k.txt; sourceTree = "<group>"; };
+		24F28C0324A81BDC00D595DB /* collision2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = collision2.txt; sourceTree = "<group>"; };
+		24F28C0424A81BDC00D595DB /* spiralgalaxy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spiralgalaxy.txt; sourceTree = "<group>"; };
+		24F28C0524A81BDC00D595DB /* galaxy4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy4.txt; sourceTree = "<group>"; };
+		24F28C0624A81BDC00D595DB /* galaxy1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy1.txt; sourceTree = "<group>"; };
+		24F28C0724A81BDC00D595DB /* cluster2582.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cluster2582.txt; sourceTree = "<group>"; };
+		24F28C0824A81BDC00D595DB /* galaxy3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy3.txt; sourceTree = "<group>"; };
+		24F28C0924A81BDC00D595DB /* galaxy20k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy20k.txt; sourceTree = "<group>"; };
+		24F28C0A24A81BDC00D595DB /* galaxy2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxy2.txt; sourceTree = "<group>"; };
+		24F28C0B24A81BDC00D595DB /* galaxymerge1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxymerge1.txt; sourceTree = "<group>"; };
+		24F28C0C24A81BDC00D595DB /* galaxymerge2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxymerge2.txt; sourceTree = "<group>"; };
+		24F28C0D24A81BDC00D595DB /* asteroids1000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asteroids1000.txt; sourceTree = "<group>"; };
+		24F28C0E24A81BDC00D595DB /* galaxyform2500.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxyform2500.txt; sourceTree = "<group>"; };
+		24F28C0F24A81BDC00D595DB /* galaxymerge3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galaxymerge3.txt; sourceTree = "<group>"; };
+		24F28C1024A81BDC00D595DB /* saturnrings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saturnrings.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +101,46 @@
 		24F28BE024A8199000D595DB /* N-Body-Simulation-Base */ = {
 			isa = PBXGroup;
 			children = (
+				24F28BFF24A81BDC00D595DB /* samples */,
 				24F28BE124A8199000D595DB /* AppDelegate.swift */,
 				24F28BE324A8199000D595DB /* ViewController.swift */,
+				24F28BFD24A81AD900D595DB /* SimulationView.swift */,
+				24F28BF424A819B700D595DB /* BoundingBox2D.swift */,
+				24F28BF224A819B700D595DB /* CelestialBody.swift */,
+				24F28BF324A819B700D595DB /* DrawSpace.swift */,
+				24F28BF524A819B700D595DB /* Quadtree.swift */,
+				24F28BF124A819B700D595DB /* Simulation.swift */,
+				24F28BF624A819B700D595DB /* Vector2D.swift */,
 				24F28BE524A8199200D595DB /* Assets.xcassets */,
 				24F28BE724A8199200D595DB /* Main.storyboard */,
 				24F28BEA24A8199200D595DB /* Info.plist */,
 				24F28BEB24A8199200D595DB /* N_Body_Simulation_Base.entitlements */,
 			);
 			path = "N-Body-Simulation-Base";
+			sourceTree = "<group>";
+		};
+		24F28BFF24A81BDC00D595DB /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				24F28C0024A81BDC00D595DB /* collision1.txt */,
+				24F28C0124A81BDC00D595DB /* galaxy30k.txt */,
+				24F28C0224A81BDC00D595DB /* galaxy10k.txt */,
+				24F28C0324A81BDC00D595DB /* collision2.txt */,
+				24F28C0424A81BDC00D595DB /* spiralgalaxy.txt */,
+				24F28C0524A81BDC00D595DB /* galaxy4.txt */,
+				24F28C0624A81BDC00D595DB /* galaxy1.txt */,
+				24F28C0724A81BDC00D595DB /* cluster2582.txt */,
+				24F28C0824A81BDC00D595DB /* galaxy3.txt */,
+				24F28C0924A81BDC00D595DB /* galaxy20k.txt */,
+				24F28C0A24A81BDC00D595DB /* galaxy2.txt */,
+				24F28C0B24A81BDC00D595DB /* galaxymerge1.txt */,
+				24F28C0C24A81BDC00D595DB /* galaxymerge2.txt */,
+				24F28C0D24A81BDC00D595DB /* asteroids1000.txt */,
+				24F28C0E24A81BDC00D595DB /* galaxyform2500.txt */,
+				24F28C0F24A81BDC00D595DB /* galaxymerge3.txt */,
+				24F28C1024A81BDC00D595DB /* saturnrings.txt */,
+			);
+			path = samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,8 +201,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F28C1924A81BDD00D595DB /* galaxy3.txt in Resources */,
 				24F28BE624A8199200D595DB /* Assets.xcassets in Resources */,
+				24F28C1524A81BDD00D595DB /* spiralgalaxy.txt in Resources */,
+				24F28C1B24A81BDD00D595DB /* galaxy2.txt in Resources */,
+				24F28C1D24A81BDD00D595DB /* galaxymerge2.txt in Resources */,
 				24F28BE924A8199200D595DB /* Main.storyboard in Resources */,
+				24F28C1C24A81BDD00D595DB /* galaxymerge1.txt in Resources */,
+				24F28C1724A81BDD00D595DB /* galaxy1.txt in Resources */,
+				24F28C1824A81BDD00D595DB /* cluster2582.txt in Resources */,
+				24F28C1624A81BDD00D595DB /* galaxy4.txt in Resources */,
+				24F28C1124A81BDD00D595DB /* collision1.txt in Resources */,
+				24F28C1224A81BDD00D595DB /* galaxy30k.txt in Resources */,
+				24F28C2124A81BDD00D595DB /* saturnrings.txt in Resources */,
+				24F28C1424A81BDD00D595DB /* collision2.txt in Resources */,
+				24F28C2024A81BDD00D595DB /* galaxymerge3.txt in Resources */,
+				24F28C1F24A81BDD00D595DB /* galaxyform2500.txt in Resources */,
+				24F28C1A24A81BDD00D595DB /* galaxy20k.txt in Resources */,
+				24F28C1E24A81BDD00D595DB /* asteroids1000.txt in Resources */,
+				24F28C1324A81BDD00D595DB /* galaxy10k.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F28BE424A8199000D595DB /* ViewController.swift in Sources */,
+				24F28BF724A819B700D595DB /* Simulation.swift in Sources */,
+				24F28BFC24A819B700D595DB /* Vector2D.swift in Sources */,
+				24F28BFE24A81AD900D595DB /* SimulationView.swift in Sources */,
+				24F28BF824A819B700D595DB /* CelestialBody.swift in Sources */,
+				24F28BFB24A819B700D595DB /* Quadtree.swift in Sources */,
+				24F28BF924A819B700D595DB /* DrawSpace.swift in Sources */,
 				24F28BE224A8199000D595DB /* AppDelegate.swift in Sources */,
+				24F28BFA24A819B700D595DB /* BoundingBox2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
